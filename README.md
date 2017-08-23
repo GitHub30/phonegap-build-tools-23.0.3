@@ -3,5 +3,5 @@
 # Usage
 
 ```bash
-docker run -v "$PWD":/data myphonegap phonegap build --verbose android -- --gradleArg=-PcdvBuildToolsVersion=23.0.3
+docker run -v "$PWD":/data nyanpass/phonegap phonegap build --verbose android -- --gradleArg=-PcdvBuildToolsVersion=23.0.3
 ```
